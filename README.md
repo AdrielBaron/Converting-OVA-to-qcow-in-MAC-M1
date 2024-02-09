@@ -10,7 +10,7 @@ The qcow2 format is particularly useful for virtual environments where disk spac
 
 ## Installing home brew
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"````
+```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"````
 
 ## Installing qemu utils
 
