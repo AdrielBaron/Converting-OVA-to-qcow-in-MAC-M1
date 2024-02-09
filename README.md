@@ -14,20 +14,20 @@ The qcow2 format is particularly useful for virtual environments where disk spac
 
 ## Installing qemu utils
 
-brew install qemu```
+```brew install qemu```
 
-brew install qemu-utils```
+```brew install qemu-utils```
 
 ## Check for successful instillation 
 
-qemu-system-x86_64 --version```
+```qemu-system-x86_64 --version```
 
 ## Extracting the OVA file
 
-tar -xvf file_name.ova```
+```tar -xvf file_name.ova```
 
 You will get two file, file_name.ovf and file_name.vmdk
 
 ## Now convert the file_name.vmdk into a .qcow using the following command
 
-qemu-img convert -0 qcow2 file_name-disk1.vmdk file_name.qcow2```
+```qemu-img convert -0 qcow2 file_name-disk1.vmdk file_name.qcow2```
