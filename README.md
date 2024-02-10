@@ -1,5 +1,5 @@
-# Converting-OVA-to-qcow-in-MAC-M1
-Converting an OVA file into qcow2 file in MAC M1 (Apple Silicon)
+# Converting-OVA-to-qcow-on-MAC-M1
+Converting an OVA file into qcow2 file on MAC M1 (Apple Silicon)
 
 ## OVA
 An OVA file, or Open Virtual Appliance (also sometimes referred to as Open Virtual Application), is a package that contains various files necessary to run a virtual machine. This package is a single archive file with the .ova extension and typically includes a VM's configuration file (usually in XML format), one or more virtual disks, and sometimes a manifest and certificate files.
