@@ -30,4 +30,4 @@ You will get two file, file_name.ovf and file_name.vmdk
 
 ## Now convert the file_name.vmdk into a .qcow using the following command
 
-```qemu-img convert -0 qcow2 file_name-disk1.vmdk file_name.qcow2```
+```qemu-img convert -p -O qcow2 file_name-disk1.vmdk file_name.qcow2```
